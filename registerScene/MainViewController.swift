@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
         userNameTF.delegate = self
         forgotNameButton.titleLabel?.font = UIFont.systemFont(ofSize: view.frame.height / 60)
         forgotPasswordButton.titleLabel?.font = UIFont.systemFont(ofSize: view.frame.height / 60)
+        
 
 
 
@@ -101,6 +102,6 @@ extension MainViewController: UITextFieldDelegate {
     }
 }
 
-
+// не помучается сделать isSecureTextEntry, появляется непонятная для меня ошибка с
 
 
